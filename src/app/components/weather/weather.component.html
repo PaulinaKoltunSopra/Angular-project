@@ -1,0 +1,14 @@
+<div class="container">
+  <app-title [title]="'Sprawdź pogodę'"></app-title>
+
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="form">
+    <mat-form-field appearance="fill">
+      <mat-label>Kod pocztowy</mat-label>
+      <input formControlName="zipCode" matInput pattern="[0-9]{2}\-[0-9]{3}">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Szukaj</button>
+
+  </form>
+
+</div>

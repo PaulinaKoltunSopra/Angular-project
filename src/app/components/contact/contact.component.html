@@ -1,0 +1,23 @@
+<div class="container">
+  <app-title [title]="'Kontakt'"></app-title>
+
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="form">
+    <mat-form-field appearance="fill">
+      <mat-label>Imię</mat-label>
+      <input formControlName="name" matInput>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>E-mail</mat-label>
+      <input formControlName="email" matInput>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Opis sprawy</mat-label>
+      <input formControlName="message" matInput>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Wyślij</button>
+
+  </form>
+</div>

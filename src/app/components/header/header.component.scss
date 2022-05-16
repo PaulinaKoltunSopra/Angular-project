@@ -1,0 +1,23 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.column-spacer {
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.icon {
+  padding: 0 14px;
+  background-color: inherit;
+  border-style: none;
+}
+
+.tabs {
+  display: flex;
+  align-items: flex-end;
+}
+
+.tab {
+  padding: 10px;
+}

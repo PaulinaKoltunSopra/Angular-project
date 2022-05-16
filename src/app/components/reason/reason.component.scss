@@ -1,0 +1,19 @@
+.reason {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.icon {
+  padding: 14px;
+  background-color: inherit;
+  border-style: none;
+  transform: scale(2);
+}
+
+.text {
+  width: 70%;
+  text-align: center;
+}
